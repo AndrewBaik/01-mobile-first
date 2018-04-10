@@ -1,4 +1,4 @@
-@media screen and (min-width: 48em){
+@media screen and (min-width: 640.1px){
   #menu-bar {
     display: none;
   }
@@ -8,13 +8,16 @@
   }
 }
 
-@media screen and (max-width: 47.9em) {
+@media screen and (max-width: 640px) {
   li {
-    display: block;
+    /* display: block; */
+    display: none;
   }
   
   ul > li {
     text-align: center;
   }
-  
+  nav:hover li {
+    display: block;
+  }  
 }
