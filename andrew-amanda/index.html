@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <title>Lab 1</title>
   <!-- TODO: Add a meta tag to properly set the viewport and initial scale done --> 
-<meta property="og:title" content="Kilovolt Blog!">
-<meta property="og:type" content="article, blog">
-
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="initial-scale=1">
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory done--> 
 <link rel="stylesheet" href="vendor/styles/normalize.css">
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts done-->
@@ -14,7 +13,7 @@
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules done -->
 <link rel="stylesheet" href="styles/base.css">
 <link rel="stylesheet" href="styles/layout.css">
-<link rel="stylesheet" href="modules.css">
+<link rel="stylesheet" href="styles/modules.css">
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets done-->
   <!-- PUT YOUR RESPONSE HERE -->
   <!-- In an order of most broad to focused -->
@@ -27,7 +26,9 @@
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- PUT YOUR RESPONSE HERE done -->
+    <!-- it's a way for an element to automatically clear its child elements -->
+
 
     <section class="heading-group-h1">
       <h1>
@@ -37,7 +38,7 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
-
+      <img id="menu-bar" src="vendor/styles/fonts/hamb.svg" alt="menu bar">
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
