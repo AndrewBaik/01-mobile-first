@@ -1,25 +1,20 @@
 #menu-bar {
   width: 40px;
   float: right;
-  margin: -8em .1em 0 0; 
+  margin: -6em 1em 0 0; 
   cursor: pointer;
 }
-nav {
+nav, ul, li {
   width: 100%;
 }
 img {
   max-width: 100%;
   height: auto;
-  width: auto\9;
+  width: auto\100000;
 }
 
 li.tab {
   list-style-type: none;
-}
-
-ul > li {
-margin: 0 5% 0 5%;
-  padding: 0;
 }
 
 .pull-right {
@@ -30,4 +25,36 @@ margin: 0 5% 0 5%;
 .pull-left {
   float: left;
   margin: 5px;
+}
+
+.nav-ul > li > a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1em;
+}
+
+ul > li {
+  padding: 0 2em;
+} 
+
+nav > ul {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+}
+
+nav:hover ul>li {
+background-color: #FFEAAA;
+border-bottom: 1px gray solid;
+padding: 1em 2em;
+}
+
+h1 {
+  padding: .5em 0;
+  margin: 0;
+  margin-left: .5em;
+}
+
+h2 {
+  margin:0 0 1em .5em;
 }

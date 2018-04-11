@@ -1,6 +1,12 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 header.site-header.clearfix {
   background-color: #FFEAAA;
-  height: 250px;
-  margin-right: 5px;
-  padding: 20px 0 0 25px;
+  height: 150px;
+margin: 0;
+padding: 0;
 }

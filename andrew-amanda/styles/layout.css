@@ -10,14 +10,13 @@
 
 @media screen and (max-width: 640px) {
   li {
-    /* display: block; */
     display: none;
   }
   
   ul > li {
     text-align: center;
   }
-  nav:hover li {
-    display: block;
+  nav:hover ul li {
+    display: inline-block;
   }  
 }
